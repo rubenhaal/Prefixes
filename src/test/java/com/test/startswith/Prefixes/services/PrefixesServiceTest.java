@@ -58,8 +58,8 @@ class PrefixesServiceTest {
         prefixDictionary.loadPrefixes("prefixes.txt");
 
         PrefixesService prefixesServiceTest = new PrefixesService(prefixDictionary);
-        String result = prefixesServiceTest.findLongestPrefix("P0yN4DHP3343333");
-        assertEquals("P0yN4DHP3", result);
+        String result = prefixesServiceTest.findLongestPrefix("msqiep3343333");
+        assertEquals("msqiep", result);
 
     }
 
